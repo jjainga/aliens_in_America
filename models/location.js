@@ -4,9 +4,9 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             allowNull: false
           },
-        state :DataTypes.String,
-        country: DataTypes.String,
-        occupation: DataTypes.String
+        state :DataTypes.STRING,
+        country: DataTypes.STRING,
+        occupation: DataTypes.STRING
     });
 
 
