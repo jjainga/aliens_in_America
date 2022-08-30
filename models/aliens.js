@@ -1,13 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
     var aliens = sequelize.define("aliens", {
-        first_name: {
-            type: DataTypes.STRING,
-            allowNull: false
-          },
-        last_name :DataTypes.String,
-        email: DataTypes.String,
-        gender: DataTypes.String,
-        type: DataTypes.String,
+        first_name: DataTypes.STRING,
+        last_name :DataTypes.STRING,
+        email: DataTypes.STRING,
+        gender: DataTypes.STRING,
+        type: DataTypes.STRING,
         birthYear: DataTypes.INTEGER
     });
 

@@ -4,8 +4,8 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             allowNull: false
           },
-        feeding_freuency :DataTypes.String,
-        aggressive: DataTypes.String
+        feeding_freuency :DataTypes.STRING,
+        aggressive: DataTypes.STRING
     });
 
 
